@@ -39,8 +39,8 @@ function prevSlider() {
 
 
 
-btnNext.addEventListener('click', nextSlider)
-btnPrev.addEventListener('click', prevSlider)
+btnNext.addEventListener('click', nextSlider);
+btnPrev.addEventListener('click', prevSlider);
 document.addEventListener('keydown', function(event){
   var keyPressed = event.keyCode;
 
@@ -55,4 +55,4 @@ document.addEventListener('keydown', function(event){
   }
 
 
-})
+});
